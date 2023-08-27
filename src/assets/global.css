@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+nav {
+  height: 10vh;
+  padding: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item{
+  margin-left: 2rem;
+
+}
+
+.nav-item:nth-child(1){
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+.nav-item:last-child{
+  margin-right: 2rem;
+}
+
+nav > a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  width: 50%;
+}
