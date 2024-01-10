@@ -1,5 +1,6 @@
 import { useEffect, useState} from "react";
 import Turnament from "../components/Turnament"
+import URL from "..utils/URL.js"
 
 
 const getURL = 'https://bhc-backend.antonpandi.repl.co/turnaments';
@@ -29,6 +30,7 @@ export default function Navbar(){
     return(
     
     <div className="post post-container ">
+        <p>`${URL()}`</p>
         {results.length === 0 && "No turnament"}
             {results.map(turnament => {
                 return ( <Turnament {...turnament} key={turnament.id} /> )
