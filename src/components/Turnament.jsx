@@ -1,6 +1,5 @@
 
 
-
 export default function Turnament(turnament){
     return(
         <div className="turnament row justify-content-center mb-4 mt-5">
